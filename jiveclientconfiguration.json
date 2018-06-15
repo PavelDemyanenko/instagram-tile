@@ -1,5 +1,5 @@
 {
-    "clientUrl": "http://localhost",
+    "clientUrl": "https://a34bcaef.ngrok.io", // put here your ngrok domain
     "port": "8090",
     "development" : true,
 	  "clientUrlExcludesPort": true,
@@ -8,8 +8,8 @@
     "logFileSize" : 20480,
     "logFileNumBackups" : 3,
 	  "extensionInfo": {
-		"id": "8491a722-5280-4be5-ace7-88d81d02cca6",
-		"uuid": "8491a722-5280-4be5-ace7-88d81d02cca6",
+		"id": "2d45c32c-0c3e-499c-ad68-7e232752bdfc",
+		"uuid": "2d45c32c-0c3e-499c-ad68-7e232752bdfc",
 		"name": "instagram-tile",
 		"description": "Description for instagram-tile",
 		"icon_16": "extension-16.png",
