@@ -1,0 +1,26 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "displayName": "instagram-tile",
+            "name": "instagram-tile",
+            "description": "instagram-tile",
+            "style": "CUSTOM_VIEW",
+            "displayWidth": "ALL",
+            "dataProviderKey": "internal",
+            "pageTypes": [
+                "PLACE",
+                "USER"
+            ],
+            "icons": {
+                "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+                "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+                "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+            },
+            "config": "https://pavel-ssh.tbarhack.duckdns.org/instagram-tile/configuration.html?features=responsive,tile,core-v3&ts=1529574025481",
+            "view": "https://pavel-ssh.tbarhack.duckdns.org/instagram-tile/view.html?features=responsive,tile,core-v3&ts=1529574025481"
+        }
+    ]
+}

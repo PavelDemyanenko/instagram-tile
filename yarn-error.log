@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\WebEx\Productivity Tools;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Openshift;C:\Program Files\7-Zip\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\pdemiane\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\HashiCorp\Vagrant\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Users\pdemiane\AppData\Local\Programs\Git\cmd;C:\Users\pdemiane\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Projects\apache-maven-3.3.9\bin\;C:\Openshift;C:\Users\pdemiane\AppData\Roaming\npm;C:\Users\pdemiane\AppData\Local\Yarn\bin;C:\Users\pdemiane\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+      "name": "instagram-tile",
+      "version": "0.0.1",
+      "private": true,
+      "scripts": {
+          "start": "node app.js"
+      },
+      "dependencies": {
+          "express": "4.14.0",
+          "body-parser": "1.15.2",
+          "method-override": "2.3.6",
+          "errorhandler": "1.4.3",
+          "serve-favicon": "2.3.0",
+          "jive-sdk":"*",
+          "consolidate": "0.14.1",
+          "q": "1.4.1",
+          "request": "2.74.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ptoxy.t-systems.ru ptoxy.t-systems.ru:3128
+      at ClientRequest.onError (C:\Program Files (x86)\Yarn\lib\cli.js:137335:17)
+      at Object.onceWrapper (events.js:315:30)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+      at _combinedTickCallback (internal/process/next_tick.js:138:11)
+      at process._tickCallback (internal/process/next_tick.js:180:9)

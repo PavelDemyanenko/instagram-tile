@@ -1,5 +1,5 @@
 {
-    "clientUrl": "https://a34bcaef.ngrok.io", // put here your ngrok domain
+    "clientUrl": "https://pavel-ssh.tbarhack.duckdns.org",
     "port": "8090",
     "development" : true,
 	  "clientUrlExcludesPort": true,
@@ -8,14 +8,14 @@
     "logFileSize" : 20480,
     "logFileNumBackups" : 3,
 	  "extensionInfo": {
-		"id": "2d45c32c-0c3e-499c-ad68-7e232752bdfc",
-		"uuid": "2d45c32c-0c3e-499c-ad68-7e232752bdfc",
+		"id": "6df67018-2ea4-4b08-b920-d012ef298a0c",
+		"uuid": "6df67018-2ea4-4b08-b920-d012ef298a0c",
 		"name": "instagram-tile",
 		"description": "Description for instagram-tile",
 		"icon_16": "extension-16.png",
 		"icon_48": "extension-48.png",
 		"icon_128": "extension-128.png",
-		"releasedOn": "2018-06-14T09:25:10.456Z"
+		"releasedOn": "2018-03-08T13:14:21.566Z"
 	},
 	"ext" : {
 		"your-recommended-place" : "to-store-your-app-system-config"
